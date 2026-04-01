@@ -254,7 +254,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 <body>
     <div class="container-narrow">
-        <h1>🏃 Runner Progress Tracker</h1>
+        <h1>Runner's Progress Tracker</h1>
 
         <!-- Runner input form -->
         <form method="POST">
