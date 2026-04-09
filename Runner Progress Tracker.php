@@ -61,7 +61,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             !is_numeric($elapsed) || !is_numeric($target) ||
             $total <= 0 || $covered < 0 || $elapsed <= 0 || $target <= 0 || $covered > $total) {
             $error = "❌ Invalid input. Please enter a name and positive numbers. 
-                       Distance covered must not exceed total distance.";
+                        Distance covered must not exceed total distance.";
         } else {
             // Calculate speeds
             $currentSpeed = calcCurrentSpeed($covered, $elapsed);
