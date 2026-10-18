@@ -239,6 +239,6 @@ Before public deployment, consider:
 - Escaping all rendered user-provided values; the current history output is escaped, but error output should also be escaped if it becomes dynamic.
 - Use of HTTPS in production.
 
-## License
+## Author
 
-No license is currently specified. Add a `LICENSE` file before distributing or deploying the application if a specific license is intended.
+# Alpheus Lebepe
